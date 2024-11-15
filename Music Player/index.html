@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="playlist.svg" alt="playlist" id="playlist-img">
+        <h2>It Always Feels Good ...&#127925; &#127925;</h2>
+        <img src="music.svg" alt="music" id="music-img">
+    </header>
+    <main>
+        <div class="left">
+            <img src="gif.gif" alt="error" id="gif">
+            <div class="song-img"></div>
+            <div class="volum">
+                <div class="volum-img">
+                    <img src="volum.svg" alt="volum" id="volum-svg">
+                </div>
+                <input type="range" id="volum-range"onchange=volum()>
+            </div>
+        </div>
+        <div class="right">
+<div class="details">
+    <h3 id="song-name">Decent Look</h3>
+    <h5 id="singer-name">Davy & Simar kaur</h5>
+</div>
+<input type="range" id="song-rang" onchange="songRang()">
+<div class="controls">
+    <div class="prev-img">
+        <img src="previous.svg" alt="previous" id="prev-img" onclick="previous()">
+    </div>
+   <div class="play-pause">
+<img src="play.svg" alt="play" id="play-pause" onclick="playpause()">
+</div>
+<div class="next-img">
+    <img src="next.svg" alt="next" id="next-img" onclick="next()">
+</div>
+</div>
+        </div>
+        <div class="playlist">
+            <div class="playlist-song">
+               <img src="images/0.jpg" alt="img">
+               <div class="song-info">
+                <h2>Decent Look</h2>
+                <h3>Davy & Simar kaur</h3>
+               </div>
+            </div>
+            <div class="playlist-song">
+                <img src="images/1.jpg" alt="img">
+                <div class="song-info">
+                 <h2>90-90 Nabbe Nabbe</h2>
+                 <h3> Gippy Grewal</h3>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="images/2.jpg" alt="img">
+                <div class="song-info">
+                 <h2>koka</h2>
+                 <h3>Simar Kaur</h3>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="images/3.jpg" alt="img">
+                <div class="song-info">
+                 <h2>Parindey - B Praak</h2>
+                 <h3>B Praak</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

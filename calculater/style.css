@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color:#05091f;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    width: 80vw;
+    max-width: 300px;
+    height: 400px;
+    background-color: #003b23;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px rgb(9, 216, 44), -1px -2px 10px rgb(212, 216, 0);
+}
+.display{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.display input{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  border: none;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.8),-1px -2px 20px rgba(0, 0, 0, 0.8);
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: right;
+font-size: 28px;
+}
+.buttons{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.row{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.row button{
+    width: 18%;
+    height: 80%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.8),-1px -2px 20px rgba(0, 0, 0, 0.8);
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.623);
+    font-size: 20px;
+    cursor: pointer;
+}
+.row button:hover{
+    box-shadow: inset 1px 2px 10px rgba(0, 0, 0, 0.8);
+    font-size: small;
+    
+}
+.row1 button{
+color: aquamarine;
+}
+#equal{
+    width: 40%;
+    color: aquamarine;
+}
+

@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "gilroy";
+    box-sizing: border-box;
+}
+
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(87, 240, 194);
+}
+#panel{
+    height: 80%;
+    width: 80%;
+    background-color: aliceblue;
+border-radius: 10px;
+overflow: hidden;
+}
+#ptop{
+    padding: 0 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  color: #fff;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(132, 132, 211);
+   
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+gap: 20px;
+}
+.elem h3{
+    font-weight: 500;
+}
+.box{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+
+#pbm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    flex-wrap: wrap;
+    gap: 5px;
+padding: 15px;
+    width: 100%;
+    height: calc(100% - 100px);
+}
+
+.bubel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width: 30px;
+height: 30px;
+background-color: rgba(0, 0, 255, 0.781);
+color: #fff;
+border-radius: 50%;
+font-weight: 500;
+}
+
+.bubel:hover{
+    background-color: rgb(61, 61, 150);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
